@@ -90,7 +90,7 @@ const trendingCoins: TrendingCoin[] = [
   }
 ];
 
-const page = () => {
+const Page = () => {
   return (
     <main className="main-container">
       <section className="home-grid">
@@ -122,4 +122,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
