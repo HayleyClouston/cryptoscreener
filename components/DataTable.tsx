@@ -8,7 +8,7 @@ import {
 } from '@/components/ui/table'
 import { cn } from '@/lib/utils'
 
-const DataTable = <T extends Record<string, any>>({
+const DataTable = <T,>({
   columns,
   data,
   rowKey,
